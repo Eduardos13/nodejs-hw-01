@@ -10,4 +10,4 @@ const generateContacts = async (number) => {
   await writeContacts(contacts);
 };
 
-generateContacts(10);
+generateContacts(20);
