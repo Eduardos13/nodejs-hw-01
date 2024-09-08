@@ -19,9 +19,6 @@ export const removeLastContact = async () => {
   // Length
   // contacts.length = contacts.length - 1;
 
-  // Delete
-  // delete contacts[contacts.length - 1];
-
   await writeContacts(contacts);
 };
 
